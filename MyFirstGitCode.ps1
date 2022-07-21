@@ -1,8 +1,8 @@
-﻿iex "git -b checkout dev3"
+﻿iex "git checkout -b dev2"
 
 for ($i = 1; $i -lt 4; $i++)
 {
-New-Item "dev_3_$i.txt"
+New-Item "dev_2_$i.txt"
 iex  "git add ."
 iex  "git commit -m 'Added dev file'"
 }
