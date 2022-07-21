@@ -1,4 +1,4 @@
-﻿iex "git checkout -b dev2"
+﻿iex "git checkout dev2"
 
 for ($i = 1; $i -lt 4; $i++)
 {
